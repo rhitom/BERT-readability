@@ -1,7 +1,4 @@
-# BERT-readability
-Computing Ranked Sentence Readability Score using BERT
-
-## **INTRODUCTION**
+# BERT-Readability
 In an effort to calculate a clear, intuitive readability score for a given document, I used BERT to compute a **Ranked Sentence Readability Score (RSRS)** for a given document. The Ranked Sentence Readability Score calculates readability based on the likelihood that a word will appear next in a sentence. Using likelihood, sentence length, and word position, I calculated the RSRS for each sentence in a document, and then averaged the sentences' scores to produce the readability score for the document as a whole. 
 
 To develop a readablity score that is clear and intuitive without losing the nuance and rigor of the RSRS, I used three techniques to map RSRS: min-max scaling, z-score normalization, and boxcox transformation.
